@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "prajaktahm14-driod/nodejs2"
+        IMAGE_NAME = "prajaktahm14-driod/nodejs_docker"
         IMAGE_TAG = "latest"
         CONTAINER_NAME = "nodejs-docker"
         REMOTE_USER = "ubuntu"
