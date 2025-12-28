@@ -4,3 +4,7 @@ sudo usermod -aG docker jenkins
 sudo systemctl restart docker
 sudo systemctl restart jenkins
 ```
+```bash
+sudo usermod -aG docker ubuntu
+newgrp docker
+```
