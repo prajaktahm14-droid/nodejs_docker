@@ -6,7 +6,7 @@ pipeline {
         IMAGE_TAG = "latest"
         CONTAINER_NAME = "nodejs-docker"
         REMOTE_USER = "ubuntu"
-        REMOTE_HOST = "172.31.24.131"
+        REMOTE_HOST = "172.31.3.77"
         SSH_KEY_ID = "ssh-key"    // Jenkins Credentials ID for SSH key
     }
 
